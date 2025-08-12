@@ -1,3 +1,7 @@
+GREEN = '🟩'
+YELLOW = '🟨'
+GRAY = '⬛'
+
 def main():
     words = load_words()
     target = pick_target(words)
